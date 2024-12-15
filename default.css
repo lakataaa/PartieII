@@ -782,4 +782,38 @@
 		opacity: 1;
 		transform: translateY(0);
 	}
-		
+/* Styles pour la section Membres de l'équipe */
+/* Styles pour la section des membres */
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centre les box horizontalement */
+    gap: 20px; /* Espace entre les box */
+}
+
+.team-member {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 40px; /* Plus d'espace interne */
+    width: 300px; /* Largeur augmentée */
+    text-align: center;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1); /* Ombre légèrement plus grande */
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.1); /* Légèrement plus grand au survol */
+}
+
+.member-photo {
+    width: 150px; /* Taille plus grande des photos */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Garder les images circulaires */
+    margin: 15px auto 0 auto; /* Centrer l'image et ajouter un peu plus d'espace */
+    display: block;
+}
+
+
+
